@@ -1,4 +1,5 @@
 package bot;
+import static java.lang.System.out;
 
 import static java.lang.System.out;
 
