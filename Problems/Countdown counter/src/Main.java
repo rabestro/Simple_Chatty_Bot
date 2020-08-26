@@ -6,7 +6,7 @@ class CountDownCounter {
         this.count = initial;
     }
 
-    public void decrement() {
+    public synchronized void decrement() {
         count--;
     }
 }
