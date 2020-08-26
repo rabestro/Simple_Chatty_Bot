@@ -49,5 +49,9 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/4899
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/4899">JetBrains
+    Academy</a></html>
+  time: Wed, 26 Aug 2020 19:02:59 UTC
 record: -1

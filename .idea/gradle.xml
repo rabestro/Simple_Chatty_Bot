@@ -11,6 +11,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/Check whether a number is prime" />
             <option value="$PROJECT_DIR$/Problems/Countdown counter" />
             <option value="$PROJECT_DIR$/Problems/Counting number of instances" />
             <option value="$PROJECT_DIR$/Problems/Find the Method" />

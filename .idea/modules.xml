@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check whether a number is prime/Simple_Chatty_Bot.Problems-Check_whether_a_number_is_prime.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check whether a number is prime/Simple_Chatty_Bot.Problems-Check_whether_a_number_is_prime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check whether a number is prime/Simple_Chatty_Bot.Problems-Check_whether_a_number_is_prime.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check whether a number is prime/Simple_Chatty_Bot.Problems-Check_whether_a_number_is_prime.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check whether a number is prime/Simple_Chatty_Bot.Problems-Check_whether_a_number_is_prime.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check whether a number is prime/Simple_Chatty_Bot.Problems-Check_whether_a_number_is_prime.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Countdown counter/Simple_Chatty_Bot.Problems-Countdown_counter.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Countdown counter/Simple_Chatty_Bot.Problems-Countdown_counter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Countdown counter/Simple_Chatty_Bot.Problems-Countdown_counter.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Countdown counter/Simple_Chatty_Bot.Problems-Countdown_counter.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Countdown counter/Simple_Chatty_Bot.Problems-Countdown_counter.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Countdown counter/Simple_Chatty_Bot.Problems-Countdown_counter.test.iml" />
