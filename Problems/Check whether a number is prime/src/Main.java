@@ -4,12 +4,13 @@ import java.util.concurrent.*;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ExecutorService executor; // assign an object to it
+        ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 
         while (scanner.hasNext()) {
             int number = scanner.nextInt();
-            // create and submit tasks
+            executor.submit(new PrintIfPrimeTask(number));
         }
+        executor.shutdown();
     }
 }
 
@@ -22,6 +23,14 @@ class PrintIfPrimeTask implements Runnable {
 
     @Override
     public void run() {
-        // write code of task here
+        if (number < 2) {
+            return;
+        }
+        for (int i = (int) Math.sqrt(number); i > 1; --i) {
+            if (number % i == 0) {
+                return;
+            }
+        }
+        System.out.println(number);
     }
 }
