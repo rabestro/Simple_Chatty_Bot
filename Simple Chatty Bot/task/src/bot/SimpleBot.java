@@ -27,7 +27,7 @@ public class SimpleBot {
 
         // read a number and count to it here
         int number = scanner.nextInt();
-        for (int i = 0; i < number; ++i) {
+        for (int i = 0; i <= number; ++i) {
             System.out.println(i + "!");
         }
         System.out.println("Completed, have a nice day!");
