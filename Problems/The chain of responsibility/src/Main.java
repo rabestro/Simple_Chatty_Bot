@@ -37,6 +37,7 @@ class ChainOfResponsibilityDemo {
      * The combining method setSuccessor may has another name
      */
     static RequestHandler commonRequestHandler = // !!! write a combination of existing handlers here
+            wrapInTransactionTag.setSuccessor(createDigest).setSuccessor(wrapInRequestTag);
 
     /**
      * It represents a handler and has two methods: one for handling requests and other for combining handlers
@@ -46,11 +47,16 @@ class ChainOfResponsibilityDemo {
 
         // !!! write a method handle that accept request and returns new request here
         // it allows to use lambda expressions for creating handlers below
+        Request handle(Request request);
 
         // !!! write a default method for combining this and other handler single one
         // the order of execution may be any but you need to consider it when composing handlers
         // the method may has any name
+        default RequestHandler setSuccessor(RequestHandler after) {
+            return request -> after.handle(this.handle(request));
+        }
     }
+
     /**
      * Immutable class for representing requests.
      * If you need to change the request data then create new request.

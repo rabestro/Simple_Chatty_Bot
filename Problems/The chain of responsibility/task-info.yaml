@@ -86,5 +86,9 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2408
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2408">JetBrains
+    Academy</a></html>
+  time: Fri, 28 Aug 2020 08:58:20 UTC
 record: -1
