@@ -3,6 +3,7 @@ import java.util.stream.Stream;
 
 import static java.util.function.Predicate.not;
 import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.toSet;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,12 +13,11 @@ public class Main {
         final var edges = Stream
                 .generate(() -> new Edge(scanner.nextInt(), scanner.nextInt()))
                 .limit(edgesNumber)
-                .collect(toList());
+                .collect(toSet());
 
         final var parents = edges.stream()
                 .map(Edge::getParent)
-                .distinct()
-                .collect(toList());
+                .collect(toSet());
 
         final var leaves = edges.stream()
                 .map(Edge::getChild)
